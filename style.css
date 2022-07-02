@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+body{
+    font-size: 100%;
+   background-color: black;
+   border: 0.4px  white;
+   box-shadow: inset 0 0 25px gray;
+   
+
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around ;
+    padding-top: 20px;
+}
+.cabecalho-imagem{
+    height: 392px;
+}
+
+.corpo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around ;
+} 
+
+.corpo-centro{
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    padding-top: 20px;
+    
+}
+
+.corpo-botao{
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    border-radius: 20px;
+    border-color: gray;
+}
+
+.mensagem-1{
+    color: white;
+    font-family: 'Indie Flower', cursive;
+}
+
